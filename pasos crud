@@ -1,0 +1,23 @@
+CRUD
+Create
+Read
+Update
+Delete
+
+1: composer global update
+2: laravel new laravel7crud 
+	/* command not found, buscar como crear un proyecto con composer (composer create-project --prefer-dist laravel/laravel laravel7crud)*/
+3: acceder al proyecto(con cd)
+4: inicar el servidor(php artisan serve)
+5: configurar BD y archivo env. (reiniciar servidor)
+		php artisan key:generate para crear una llave
+		configurar el AppServiceProvider
+6: ejecutar migraciones (php artisan migrate)
+7: crear una migracion (php artisan make:model Corona -mcr) y ejecutarla
+8: configurar el modelo
+9: si ejecute el comando del paso 7 ya no ejecuto el del paso 3 de la pagina web para crear el controlador
+10: ejecutar los comandos del step 4
+11: crear la vistas dentro de una carpeta que se llame "coronas" dentro de views
+12: seguir los demas paso de la pagina 
+
+
